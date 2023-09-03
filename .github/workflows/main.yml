@@ -12,12 +12,7 @@ jobs:
      runs-on: ubuntu-latest
 
      steps:
-     - name: 'testing github actions'
+     - name: 'printing folder contents'
 
-       run: pwd 
-
-     - name: 'testing printing'
-
-       run: echo medo  
-
+       run: ls
 
